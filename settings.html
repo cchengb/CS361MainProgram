@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings - Mealow</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="js/settings-script.js"></script>
+</head>
+<body>
+    <header>
+        <a href="home.html" class="logo">Mealow!</a>
+        <nav>
+            <ul class="navbar">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="recipes.html">Recipes</a></li>
+                <li><a href="favorites.html">Favorites</a></li>
+                <li><a href="music.html">Music</a></li>
+                <li><a href="settings.html">Settings</a></li>
+                <button type="button" class="btnLogout-popup">Logout</button>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="settings">
+            <h1>Settings</h1>
+            <form onsubmit="saveSettings(); return false;"> <!-- Add return false to prevent form submission -->
+                
+                <div>
+                    <h2>Theme Preferences</h2>
+                    <label for="theme">Choose a theme:</label>
+                    <div></div>
+                    <select id="theme" class ="themebutton">
+                        <option value="light">Light</option>
+                        <option value="dark">Dark</option>
+                    </select>
+                </div>
+                <label for="theme">Save Settings:</label>
+                <div></div>
+                <button type="submit" class = "submitbutton">Save Settings</button>
+            </form>
+        </section>
+        <div></div>
+        <div></div>
+        <section>
+            <h1>Special Gif Generator</h1>
+
+            <button id="generateImagesBtn" class ="generateImagesButton">Generate Special Gif</button>
+            <!-- Image container where GIFs and links will appear -->
+            <div id="imagesContainer" style="display: flex; flex-wrap: wrap; justify-content: space-around; align-items: center;"></div>
+        </section>
+        <section class="about">
+            
+            <h1>About Mealow</h1>
+            <p>Mealow is a meal planning solution designed to simplify your daily food preparation. Here you can find, save, and even customize your recipes according to your dietary needs.</p>
+            <p>Founded in 2024 by a team of food enthusiasts and developers, Mealow aims to help individuals and families eat healthier by making meal planning easy and accessible to everyone.</p>
+        </section>
+
+        <footer>
+            <p>© 2024 Mealow Planner. All rights reserved.</p>
+        </footer>
+    </main>
+
+
+    <script src="js/settings-script.js"></script>
+</body>
+</html>

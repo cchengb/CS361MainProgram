@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorites - Mealow</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <header>
+        <a href="home.html" class="logo">Mealow!</a>
+        <nav>
+            <ul class="navbar">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="recipes.html">Recipes</a></li>
+                <li><a href="favorites.html">Favorites</a></li>
+                <li><a href="music.html">Music</a></li>
+                <li><a href="settings.html">Settings</a></li>
+                <button type="button" class="btnLogout-popup">Logout</button>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="favorites">
+            <h1 class="favorite-h1">Your Favorite Recipes</h1>
+            <button class="button" onclick="undoDelete()">Undo</button>
+            <div id="favoriteList" class="recipe-list">
+                <!-- Favorites will be displayed here -->
+            </div>
+        </section>
+    </main>
+
+    <script src="js/script.js"></script>
+    <script>
+            window.onload = function() {
+            displayFavorites();
+            };
+    </script>
+
+    <div id="modal" class="modal">
+     <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Recipe deleted successfully.</p>
+    </div>
+</div>
+</body>
+</html>

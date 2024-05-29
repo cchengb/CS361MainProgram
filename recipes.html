@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipes - Mealow</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="js/script.js"></script> <!-- Ensure script.js contains addToFavorites and displayFavorites functions -->
+</head>
+<body>
+    <header>
+        <a href="home.html" class="logo">Mealow!</a>
+        <nav>
+            <ul class="navbar">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="recipes.html">Recipes</a></li>
+                <li><a href="favorites.html">Favorites</a></li>
+                <li><a href="music.html">Music</a></li>
+                <li><a href="settings.html">Settings</a></li>
+                <button type="button" class="btnLogout-popup">Logout</button>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="recipes">
+            <h3 class="recipes-h3">Explore Our Recipes</h3>
+            <p class="recipes-p">Choose a type of meal to decide breakfast, lunch, dinner, or snack.</p>
+            <p class="recipes-p">Push the Generate Recipes button to get randomly six recipes.</p>
+            <p class="recipes-p">Picture will load in one second, click picture will take at least one minute to read all deatils. </p>
+            <p class="recipes-p">Speak recipe can speak the recipe name if you cannot read clearly.</p>
+            <form id="recipeForm">
+                <label for="mealType">Choose a type of meal:</label>
+                <select id="mealType" name="mealType">
+                    <option value="breakfast">Breakfast</option>
+                    <option value="lunch">Lunch</option>
+                    <option value="dinner">Dinner</option>
+                    <option value="snack">Snack</option>
+                </select>
+                <button type="button" onclick="generateRecipes()">Generate Recipes</button>
+            </form>
+            <div id="recipeList" class="recipe-list">
+                <!-- Recipes will be appended here by recipe-generator.js -->
+            </div>
+        </section>
+    </main>
+
+    <script src="recipe-generator.js"></script> <!-- Ensure this script handles fetching and displaying recipes -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <!-- Recipe details will be inserted dynamically here -->
+        </div>
+    </div>
+</body>
+</html>
