@@ -154,15 +154,28 @@ body{
     color:#fff;
 }
 .recipes-p{
-    color:#fff
+    color:#fff;
 }
 .recipes-h3{
     font-size: 35px;
     font-weight: 600;
-    color:#fff
+    color:#6ff774;
 }
 .home-h{
-    color:#fff;
+    color:#6ff774;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+
+}
+.hero p{
+    color: #ffffff;
+    font-size: 20px;
 }
 .input-box{
     position: relative;
@@ -630,6 +643,28 @@ label {
     background-color: #cccccc; /* Light grey background on hover */
     cursor: pointer; /* Cursor pointer to indicate it's clickable */
 }
+
+
+.how-to-container {
+    background-color: rgba(0, 0, 0, 0.6); /* Adjust the opacity as needed */
+    padding: 10px;
+    border-radius: 5px; /* Optional rounded corners */
+    color: #ffffff; /* Ensuring text is readable on dark background */
+    margin-bottom: 20px;
+}
+
+.steps {
+    display: flex;
+    flex-direction: column; /* Stack the steps vertically */
+    gap: 15px; /* Add space between each step */
+}
+
+.step {
+    background-color: transparent; /* Optional: further style each step if needed */
+    padding: 10px;
+    border-radius: 5px; /* Optional rounded corners for each step */
+}
+
 
 /* weather basedon setting on the main page */
 .weather-recommendations {
