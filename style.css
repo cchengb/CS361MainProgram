@@ -532,3 +532,251 @@ label {
     margin: 10px auto;
     color: #0b0b0b;
 }
+/* music page setting*/
+
+/* weather basedon setting on the main page */
+.music {
+    margin-bottom: 30px;
+    background-color: rgba(0, 0, 0, 0.6); /* Dark background for better contrast */
+    color: #ffffff; /* White color text for better visibility */
+    padding: 10px; /* More padding around the text */
+    border-radius: 5px; /* Optional: rounded corners for aesthetic */
+}
+
+.music h3, .music p, .music label{
+    margin-bottom: 10px;
+    color:#ffffff /* More space between the header and paragraph */
+}
+
+
+.music button {
+    background-color: #ffffff; /* Light background for the button */
+    color: #162928; /* Dark text for the button */
+    border: none; /* Remove default border */
+    padding: 8px 16px; /* Adequate padding inside the button */
+    font-weight: bold; /* Bold font for better readability */
+    border-radius: 4px; /* Rounded corners for the button */
+}
+
+.music button:hover {
+    background-color: #cccccc; /* Light grey background on hover */
+    cursor: pointer; /* Cursor pointer to indicate it's clickable */
+}
+/* setting  setting on the Setting page */
+.settings {
+    width: auto;
+    display: inline-block;
+    margin-bottom: 30px auto;
+    background-color: rgba(0, 0, 0, 0.6); /* Dark background for better contrast */
+    color: #ffffff; /* White color text for better visibility */
+    padding: 10px 20px; /* More padding around the text */
+    border-radius: 5px; /* Optional: rounded corners for aesthetic */
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.settings h3, .settings p, .settings label{
+    margin-bottom: 10px;
+    color:#ffffff /* More space between the header and paragraph */
+}
+
+
+.settings button {
+    background-color: #ffffff; /* Light background for the button */
+    color: #162928; /* Dark text for the button */
+    border: none; /* Remove default border */
+    padding: 8px 16px; /* Adequate padding inside the button */
+    font-weight: bold; /* Bold font for better readability */
+    border-radius: 4px; /* Rounded corners for the button */
+    text-align: left;
+}
+
+.settings button:hover {
+    background-color: #cccccc; /* Light grey background on hover */
+    cursor: pointer; /* Cursor pointer to indicate it's clickable */
+}
+
+
+/* specialGifGenerator  setting on the Setting page */
+.specialGifGenerator {
+    margin-top: 20px;
+    width: auto;
+    display: inline-block;
+    margin-bottom: 30px auto;
+    background-color: rgba(0, 0, 0, 0.6); /* Dark background for better contrast */
+    color: #ffffff; /* White color text for better visibility */
+    padding: 10px 20px; /* More padding around the text */
+    border-radius: 5px; /* Optional: rounded corners for aesthetic */
+    text-align: left;
+}
+
+.specialGifGenerator h3, .specialGifGenerator p, .specialGifGenerator label{
+    margin-bottom: 10px;
+    color:#ffffff /* More space between the header and paragraph */
+}
+
+
+.specialGifGenerator button {
+    background-color: #ffffff; /* Light background for the button */
+    color: #162928; /* Dark text for the button */
+    border: none; /* Remove default border */
+    padding: 8px 16px; /* Adequate padding inside the button */
+    font-weight: bold; /* Bold font for better readability */
+    border-radius: 4px; /* Rounded corners for the button */
+    text-align: left;
+}
+
+.specialGifGenerator button:hover {
+    background-color: #cccccc; /* Light grey background on hover */
+    cursor: pointer; /* Cursor pointer to indicate it's clickable */
+}
+
+/* weather basedon setting on the main page */
+.weather-recommendations {
+    margin-bottom: 30px;
+    background-color: rgba(0, 0, 0, 0.6); /* Dark background for better contrast */
+    color: #ffffff; /* White color text for better visibility */
+    padding: 10px; /* More padding around the text */
+    border-radius: 5px; /* Optional: rounded corners for aesthetic */
+}
+
+.weather-recommendations h3, .weather-recommendations p {
+    margin-bottom: 10px; /* More space between the header and paragraph */
+}
+
+
+.weather-recommendations button {
+    background-color: #ffffff; /* Light background for the button */
+    color: #162928; /* Dark text for the button */
+    border: none; /* Remove default border */
+    padding: 8px 16px; /* Adequate padding inside the button */
+    font-weight: bold; /* Bold font for better readability */
+    border-radius: 4px; /* Rounded corners for the button */
+}
+
+.weather-recommendations button:hover {
+    background-color: #cccccc; /* Light grey background on hover */
+    cursor: pointer; /* Cursor pointer to indicate it's clickable */
+}
+
+/* Cooking tips setting on the main page */
+.cooking-tips {
+    margin-top: 30px;
+    background-color: rgba(0, 0, 0, 0.6); /* Dark background for better contrast */
+    color: #ffffff; /* White color text for better visibility */
+    padding: 10px; /* More padding around the text */
+    border-radius: 5px; /* Optional: rounded corners for aesthetic */
+}
+
+.cooking-tips h3, .cooking-tips p {
+    margin-bottom: 10px; /* More space between the header and paragraph */
+}
+
+
+.cooking-tips button {
+    background-color: #ffffff; /* Light background for the button */
+    color: #162928; /* Dark text for the button */
+    border: none; /* Remove default border */
+    padding: 8px 16px; /* Adequate padding inside the button */
+    font-weight: bold; /* Bold font for better readability */
+    border-radius: 4px; /* Rounded corners for the button */
+}
+
+.cooking-tips button:hover {
+    background-color: #cccccc; /* Light grey background on hover */
+    cursor: pointer; /* Cursor pointer to indicate it's clickable */
+}
+
+
+/* recipes tips setting on the main page */
+.recipes {
+    margin-top: 30px;
+    background-color: rgba(0, 0, 0, 0.6); /* Dark background for better contrast */
+    color: #ffffff; /* White color text for better visibility */
+    padding: 10px; /* More padding around the text */
+    border-radius: 5px; /* Optional: rounded corners for aesthetic */
+}
+
+.recipes h3, .recipes p, .recipes label{
+    margin-bottom: 10px; /* More space between the header and paragraph */
+    color: #ffffff;
+}
+
+
+.recipes button {
+    background-color: #ffffff; /* Light background for the button */
+    color: #162928; /* Dark text for the button */
+    border: none; /* Remove default border */
+    padding: 8px 16px; /* Adequate padding inside the button */
+    font-weight: bold; /* Bold font for better readability */
+    border-radius: 4px; /* Rounded corners for the button */
+}
+
+.recipes button:hover {
+    background-color: #cccccc; /* Light grey background on hover */
+    cursor: pointer; /* Cursor pointer to indicate it's clickable */
+}
+
+
+
+/* ingredient-alternatives tips setting on the main page */
+.ingredient-alternatives {
+    margin-top: 30px;
+    background-color: rgba(0, 0, 0, 0.6); /* Dark background for better contrast */
+    color: #ffffff; /* White color text for better visibility */
+    padding: 10px; /* More padding around the text */
+    border-radius: 5px; /* Optional: rounded corners for aesthetic */
+}
+
+.ingredient-alternatives h3, .ingredient-alternatives p {
+    margin-bottom: 10px; /* More space between the header and paragraph */
+}
+
+
+.ingredient-alternatives button {
+    background-color: #ffffff; /* Light background for the button */
+    color: #162928; /* Dark text for the button */
+    border: none; /* Remove default border */
+    padding: 8px 16px; /* Adequate padding inside the button */
+    font-weight: bold; /* Bold font for better readability */
+    border-radius: 4px; /* Rounded corners for the button */
+}
+
+.ingredient-alternatives button:hover {
+    background-color: #cccccc; /* Light grey background on hover */
+    cursor: pointer; /* Cursor pointer to indicate it's clickable */
+}
+
+/* ingridents alternative display */
+#alternativesDisplay ul {
+    list-style-type: none; /* Removes bullet points */
+    padding: 0; /* Removes padding */
+}
+
+#alternativesDisplay li {
+    margin-bottom: 10px; /* Adds space between items */
+    display: flex; /* Makes the list item a flex container */
+    align-items: center; /* Centers items vertically */
+    justify-content: space-between; /* Distributes space between content and button */
+}
+
+#alternativesDisplay button {
+    padding: 5px 10px; /* Padding inside the button */
+    margin-left: 20px; /* Space between the alternative text and button */
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+#alternativesDisplay button:hover {
+    background-color: #45a049; /* Slightly darker green on hover */
+}
+
+#reasonsDisplay {
+    background-color: #45a049; /* Light grey background */
+    padding: 10px; /* Padding around text */
+    border-radius: 4px; /* Rounded corners */
+    margin-top: 10px; /* Space above the reasons area */
+}

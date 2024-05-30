@@ -16,7 +16,7 @@
                 <li><a href="home.html">Home</a></li>
                 <li><a href="recipes.html">Recipes</a></li>
                 <li><a href="favorites.html">Favorites</a></li>
-                <li><a href="music.html">music</a></li>
+                <li><a href="music.html">Music</a></li>
                 <li><a href="settings.html">Settings</a></li>
                 <button type="button" onclick="logout()" class="btnLogout-popup">Logout</button>
             </ul>
@@ -28,8 +28,6 @@
             <h1 class="home-h">Welcome to Mealow!</h1>
             <p >Plan your meals efficiently and discover great recipes tailored to your taste!</p>
         </section>
-        
-
         <section class="how-to">
             <h2 class="home-h">How to Use Mealow</h2>
             <div class="steps">
@@ -49,10 +47,34 @@
                     <h3 class="home-h">Enjoy your meals</h3>
                 </div>
             </div>
-            <footer>
-                <p>© 2024 Mealow Planner, Colin Cheng.</p>
-            </footer>
         </section>
+
+        <section class="weather-recommendations">
+            <div>
+                <h3>Weather-based Meal Recommendations</h3>
+                <button onclick="getMealSuggestions()" class ="submitbutton">Get Meal Suggestions</button>
+                <div id="mealWeatherCondition"></div>
+                <ul id="mealList"></ul>
+
+                <h3>Instant Weather-based Snack Suggestions</h3>
+                <button onclick="getSnackSuggestions()" class ="submitbutton">Get Snack Suggestions</button>
+                <div id="snackWeatherCondition"></div>
+                <ul id="snackList"></ul>
+            </div>
+        </section>
+        
+        <section class="cooking-tips">
+            <div>
+                <h3>Daily Cooking Tip</h3>
+                <p id="dailyTip">Loading daily tip...</p>
+                <button onclick="fetchRandomTip()" class ="submitbutton">Get Another Tip</button>
+                <p id="randomTip"></p>
+            </div>
+        </section>
+        
+        <footer>
+            <p>© 2024 Mealow Planner, Colin Cheng.</p>
+        </footer>
     </main>
 
   

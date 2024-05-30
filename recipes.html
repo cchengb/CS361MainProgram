@@ -44,6 +44,20 @@
                 <!-- Recipes will be appended here by recipe-generator.js -->
             </div>
         </section>
+        <section class="ingredient-alternatives">
+            <h3>Find Ingredient Alternatives</h3>
+            <p>Enter an ingredient you're missing to find suitable alternatives.</p>
+            <form id="ingredientForm">
+                <input type="text" id="ingredientInput" placeholder="Enter ingredient..." required>
+                <button type="button" onclick="findIngredientAlternatives()">Find Alternatives</button>
+            </form>
+            <div id="alternativesDisplay"></div>
+            <div id="reasonsDisplay" style="display: none;"> <!-- Initially hidden -->
+                <h4>Why these substitute?</h4>
+                <p id="reasonText"></p>
+            </div>
+        </section>
+        
     </main>
 
     <script src="recipe-generator.js"></script> <!-- Ensure this script handles fetching and displaying recipes -->
